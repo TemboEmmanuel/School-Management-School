@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #011429;
+
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+#hom{
+    margin-top: -550px;
+    margin-right: auto;
+    position: absolute;
+}
+
+#pen {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-left: auto;   
+}
+#pen:hover{
+    text-decoration: white underline;
+}
+p{
+    color: white;
+    margin-top: -25px;
+}
+
+#big {
+    background: rgb(212, 212, 212); 
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5); /* Stronger shadow for depth */
+    max-width: 400px; /* Max width for large screens */
+    width: 100%; /* Responsive width */
+    padding: 20px;
+    color: #fff; /* White text for better readability */
+    box-sizing: border-box; /* Ensures padding doesn't affect width */
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 490px;
+}
+showpassword{
+    color: #6eb4ff;
+}
+
+.container img {
+    
+    margin-bottom: 20px;
+}
+
+form p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#show{
+    padding: 15px;
+    width: 280px;
+    height: 10px;
+    
+}
+#show:focus{ 
+    border: 0.3px solid #6eb4ff;
+    outline: 40px #6eb4ff;
+}
+
+#p{
+    padding: 15px;
+    width: 280px;
+    height: 10px;
+    color: #021a33;
+}
+#p:focus{
+    border: 0.3px solid #6eb4ff;
+    outline: 40px #6eb4ff;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+label input {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+button {
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    background-color: #4ea3fd;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+h2{
+    width: 67px;
+    align-items: center;
+    color: #6a8dee;
+}
+h1{
+    font-size: smaller;
+    text-align: center;
+}
+button:hover {
+    background-color: #011858;
+    color: #007BFF;
+}
+
+#forgot {
+    color: #007BFF;
+    margin-top: 10px;
+    margin-left: 220px;
+}
+
+#forgot:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+h4{
+    color: white;
+}
+
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    #big {
+        padding: 15px;
+    }
+
+    form p {
+        font-size: 1em;
+    }
+
+    input[type="text"], input[type="password"] {
+        padding: 8px;
+    }
+
+    button {
+        padding: 8px;
+    }
+   
+    
+
+   
+}
+p1{
+    color: #021a33;
+    font-size: 20px;
+}
+#nice{
+    height: 7px;
+    width: 429px;
+    background-color: #6eb4ff;
+    margin-top: -26px;
+    margin-left: 0px;
+    border-radius: 20px;
+    
+}
+
+
